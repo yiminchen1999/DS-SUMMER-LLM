@@ -1,6 +1,4 @@
 import json
-
-
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/bigscience/bloom"
@@ -13,7 +11,7 @@ def query(payload):
 
 
 output = query({
-    "inputs": "where is columbia university?",
+    "inputs": "Learning Analytics is?",
 })
 
 

@@ -11,7 +11,7 @@ def query(payload):
 
 output = query({
     "inputs": "Can you please let us know more details about new york?"})
-#options = {'use_cache': False}
+options = {'use_cache': False}
 
 print(output[0]['generated_text'])
 

@@ -15,7 +15,7 @@ while True:
     #
     summary_instruction = f"\nSummary:\n"
 
-    # Combine
+    # Combine 
     prompt = user_question + summary_instruction
 
     # Generate the answer

@@ -5,7 +5,7 @@ language_model = "bigscience/bloomz-1b1"
 model = AutoModelForCausalLM.from_pretrained(language_model)
 tokenizer = AutoTokenizer.from_pretrained(language_model)
 
-prompt = "Once upon a time in a land far away, there was a"
+prompt = "BLOOM是一个"
 
 input_ids = tokenizer.encode(prompt, return_tensors="pt")
 

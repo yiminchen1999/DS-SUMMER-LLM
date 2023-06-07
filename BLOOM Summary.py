@@ -13,7 +13,7 @@ tokenizer = AutoTokenizer.from_pretrained(language_model)
 prompt = "BLOOMwastrainedontheROOTScorpus(Lauren¸conetal.,2022),acompositecollection of498HuggingFacedatasets(Lhoestetal.,2021)amountingto1.61terabytesoftextthat span46naturallanguagesand13programminglanguages.Ahigh-leveloverviewofthis datasetcanbeseeninFigure3,whileadetaileditemizedlistofeverylanguagealong withitslinguisticgenus,familyandmacroareaispresentedinTable1.Beyondthecorpus itself,theprocessresultedinthedevelopmentandreleaseofanumberoforganizational andtechnicaltools,includingthoseillustratedinFigure2."
 
 
-summary_instruction = f"\n\nSummarize the previous text in three sentences:\n\n"
+summary_instruction = f"\n\nSummary:\n\n"
 
 total_prompt = prompt + summary_instruction
 

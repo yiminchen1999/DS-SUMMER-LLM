@@ -13,9 +13,9 @@ while True:
     user_question = input("User: ")
 
     #
-    summary_instruction = f"\nSummary:\n"
+    summary_instruction = f"\nAnswer:\n"
 
-    # Combine 
+    # Combine
     prompt = user_question + summary_instruction
 
     # Generate the answer
@@ -30,7 +30,7 @@ while True:
 
     print("ChatBot:", generated_text)
 
-    # Check if the user wants to end the conversation
+    #end the conversation
     if user_question.lower() == "exit":
         break
 
